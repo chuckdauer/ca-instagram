@@ -1,0 +1,121 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small,
+strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label,
+legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside,
+canvas, details, figcaption, figure, footer, header, hgroup, menu, nav,
+section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent
+}
+#page-content {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  width: 100%;
+}
+#header {
+  height: 66px;
+  background-color: #166ba1;
+  color: #fff;
+  /*position: fixed;*/
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  margin-bottom: 0;
+}
+#brand{
+  float: left;
+  padding: 20px 0px 0px 130px;
+}
+#body-content {
+  width: 80%;
+  margin: auto;
+}
+#heading {
+  margin: 20px 0px 20px 0px;
+}
+#footer {
+  clear: both;
+  background: #f0f0f0;
+  border-top: 1px solid #ccc;
+  font-size: 15px;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+#footer-content {
+  width: 80%;
+  margin: auto;
+}
+#search-form {
+  margin: 20px 0px 20px 0px;
+}
+#instafeed {
+  margin: auto;
+  width: 95%;
+}
+h1 {
+  font-size: 30px;
+  margin: 10px 0px 10px 0px;
+  display: inline;
+}
+h2 {
+  font-size: 15px;
+  display: inline;
+  color: #6b6b6b;
+  font-weight: 300;
+}
+h3 {
+  font-size: 13px;
+  display: inline;
+}
+p {
+  font-size: 13px;
+  display: inline;
+}
+.page-notes {
+  display: block;
+  margin: 0px 0px 10px 0px;
+}
+.ig-wrapper {
+  margin: auto;
+}
+.ig-item {
+  width: 184px;
+  height: 300px;
+  overflow-y: scroll;
+  margin: 5px 5px 5px 5px;
+  padding: 10px;
+  float: left;
+  background-color:#fafafa;
+  border: 1px solid #f0f0f0;
+}
+.ig-item::-webkit-scrollbar {
+  width: 0px;
+}
+.ig-item {
+  scrollbar-3dlight-color:#fafafa;
+  scrollbar-arrow-color:#fafafa;
+  scrollbar-base-color:#fafafa;
+  scrollbar-darkshadow-color:#fafafa;
+  scrollbar-face-color:#fafafa;
+  scrollbar-highlight-color:#fafafa;
+  scrollbar-shadow-color:#fafafa;
+}
+.ig-img {
+  margin-left: 18px;
+}
+.ig-img:after{
+  border-bottom: 1px solid #000;
+}
+.ig-data {
+  word-wrap: break-word;
+}
+#search-form input {
+  border: 1px solid #afafaf;
+  line-height: 18px;
+  padding: 5px;
+  width: 305px;
+}
